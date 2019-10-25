@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Bebometro</title>
+  <link rel="shortcut icon" href="imagens/IconeAba.png"
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Isabela Carrara">
+  <meta name="description" content="Bebometro é um aplicativo Android informativo voltado à saúde, 
+	onde o usuário mede seu nível alcoólico e é informado de seus efeitos.">
+  <meta name="keywords" content="Bebometro, aplicativo, apk, android, informado, efeito, nível, alcoólico,
+	saúde, cerveja, vodka, whisky, vinho, álcool, dirigir, tempo, sangue, quantidade">
+  <!-- Bootstrap CSS -->
+  <link type="text/css" href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  
+  
+</head>
+<body data-spy="scroll" data-target="#navbarScrollSpy" data-offset="100">
+ 
+	<!-- NavBar -->
+	<nav id="navbarScrollSpy" class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
+	  <a class="navbar-brand logoEscrito" href="#">
+		<img id="logoNavBar" src="imagens/IconeMelhor2.png" width="40" height="40" class="d-inline-block align-top" alt="">
+		Bebometro</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav nav-pills">
+		  <li class="nav-item">
+			<a class="nav-link" href="#inicio">Início</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#sobre">Sobre</a>
+		  </li>
+		  <li class="nav-item ditreita">
+			<a class="nav-link" href="#download">Download</a>
+		  </li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+		  <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+		  <input class="form-control mr-sm-2" type="password" placeholder="Senha" aria-label="Senha">
+		  <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Entrar</button>
+		</form>
+	  </div>
+	</nav>
+	<!-- Jumbotron -->
+	
+	<div>
+		<div id="inicio"></div>
+		<div class="jumbotron jumbotronConteiner">
+		  <div id="textoJumbotron">
+		  <h1 class="negrito tituloJumbotron">Bebometro</h1>
+		  <p class="lead subJumbText">Beba com responsabilidade!</p>
+		  <hr class="my-4">
+		  
+		  <p>Para mais informações, inscreva-se.</p>
+		  </div>
+		<form class="form-inline alinhamentoEmailJumbo"> 
+			<div class="input-group">
+			  <div class="input-group-prepend">
+				<span class="input-group-text arroba" id="basic-addon1">@</span>
+			  </div>
+				<input type="email" class="form-control inscricaoEmail" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+				<a class="btn btn-warning" href="#" role="button">Inscrever</a>
+				
+			</div>
+		</form> 
+		</div>
+		<!-- Titilo e Cards -->
+		
+		<div>
+		<div id="sobre" class="divmargin"></div>
+		  <div class="container">
+			<h2 id="aboutTitulo">Sobre o Aplicativo</h2>
+			<p id="aboutDescricao">Bebometro é um aplicativo informativo voltado à saúde,
+				onde o usuário mede seu nível alcoólico e é informado
+				de seus efeitos.</p>
+			</div>	
+			<div class="container">
+			  <div class="divCentral2">
+				<div class="row">
+				
+					<div class="col-sm">
+						<div class="card cardsSize">
+						  <img src="imagens/Screenshot1.png" class="card-img-top" alt="...">
+						  <div class="card-body">
+							<h5 class="card-title">Escolha a bebida</h5>
+							<p class="card-text">Clique na bebida desejada.</p>
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-sm">
+						<div class="card cardsSize">
+						  <img src="imagens/Screenshot2.png" class="card-img-top" alt="...">
+						  <div class="card-body">
+							<h5 class="card-title">Quantidade</h5>
+							<p class="card-text">Insira quantos copos tomou.</p>
+						  </div>
+						</div>
+					</div>
+					
+					<div class="col-sm">
+						<div class="card cardsSize">
+						  <img src="imagens/Screenshot3.png" class="card-img-top" alt="...">
+						  <div class="card-body">
+							<h5 class="card-title">Resultado</h5>
+							<p class="card-text">Diagnóstico do seu estado alcoólico.</p>
+						  </div>
+						</div>
+					</div>	
+					
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		<!-- Download -->
+		<div id="download"></div>
+		<div id="divDownload">
+			<div class="container centralDownload">
+				<div class="divCentral">
+					<div class="row col-sm">
+						<a href="http://www.mediafire.com/file/ta1cg37p3bppn9b/Bebometro_2019.apk/file"><img class="downloadButton" src="imagens/botaodownload2.png"></a>
+					</div>
+					<p class="textoDownload">Ou</p>
+					<div class="row col-sm">
+						<img id="qrCode" src="imagens/BebometroQr2.png">
+					</div>
+					<p class="textoDownload2">Escaneie o QR code com o smartphone</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+ 
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
